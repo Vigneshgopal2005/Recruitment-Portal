@@ -63,7 +63,7 @@ const UpdateApplication = ({ jobId }) => {
                     <p><strong>Email:</strong> {app.userId?.email}</p>
                     <p>
                         <strong>Resume:</strong> {' '}
-                        <a href={`http://localhost:5000/${app.resume}`} target="_blank" rel="noopener noreferrer">
+                        <a href={`https://recruitment-portal-cihv.onrender.com/${app.resume}`} target="_blank" rel="noopener noreferrer">
                             View Resume
                         </a>
                     </p>
