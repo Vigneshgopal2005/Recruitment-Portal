@@ -1,0 +1,103 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* Align content to the top */
+    height: 100vh;
+    background: linear-gradient(135deg, #4caf50, #81c784);
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    overflow-y: auto;
+    /* Enable scrolling if content overflows */
+}
+
+.home-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.home-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    font-style: italic;
+    max-width: 600px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.home-links {
+    display: flex;
+    flex-direction: column;
+    /* Stack buttons vertically */
+    gap: 20px;
+    /* Add space between buttons */
+}
+
+.home-button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #4caf50;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    /* Set a consistent button width */
+    text-align: center;
+}
+
+.home-button:hover {
+    background-color: #81c784;
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.home-button:active {
+    transform: translateY(2px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.home-info {
+    margin-top: 50px;
+    max-width: 800px;
+    text-align: left;
+    /* Align text to the left for a clean layout */
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.home-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.home-info ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.home-info ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.home-info p {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #f1f1f1;
+    text-align: center;
+}
